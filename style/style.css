@@ -1,0 +1,175 @@
+/* header style */
+body {
+  font-family: Lato;
+}
+.header {
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+.head-description {
+  padding: 100px;
+}
+.head-paragraph {
+  font-size: 18px;
+  color: black;
+}
+.head-title {
+  width: 708px;
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.primary-btn {
+  color: #ffffff;
+  padding: 20px 43px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+}
+
+.head-image {
+  max-width: 500px;
+  padding: 50px 0 240px 0;
+}
+
+/* Featured flower style */
+.featured {
+  text-align: center;
+}
+.featured-head {
+  font-size: 40px;
+  color: #272727;
+  margin-bottom: 24px;
+}
+.featured-paragraph {
+  font-size: 18px;
+  text-align: center;
+}
+.featured-flowers {
+  display: inline-flex;
+  gap: 30px;
+}
+.flower {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+#flower1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+#flower2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+#flower3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.flower-name {
+  display: inline-flex;
+  padding: 10px 160px;
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* service section style */
+.service-section {
+  padding: 40px 100px 40px 100px;
+  margin-left: 320px;
+}
+.services {
+  display: inline-flex;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  align-items: center;
+}
+.service {
+  padding-left: 200px;
+}
+
+/* offer section */
+.primary-color {
+  color: #e55473;
+}
+.offers {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  justify-content: space-between;
+}
+.offers-details {
+  padding-left: 100px;
+}
+
+/* media section */
+.social-media {
+  background: #fff;
+}
+.media-detail {
+  text-align: center;
+}
+.media-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram {
+  display: flex;
+  justify-content: space-between;
+}
+.insta-image {
+  padding: 24px;
+}
+
+/* deals section */
+
+.deals {
+  height: fit-content;
+  background-image: url("../images/Rectangle\ 9.png");
+  text-align: center;
+}
+
+.deals-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 30px;
+}
+.subscription {
+  text-align: center;
+  display: flex;
+  padding-left: 800px;
+}
+.email {
+  padding-right: 100px;
+  margin-right: 10px;
+}
+
+/* footer section style */
+.footer {
+  color: white;
+  text-align: center;
+  background: #111010;
+}
+.footer-head {
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-details {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+}
+.copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
